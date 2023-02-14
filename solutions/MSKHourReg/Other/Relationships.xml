@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_tsis01_hoursinputmsk" />
+  <EntityRelationship Name="business_unit_tsis01_hoursreg" />
+  <EntityRelationship Name="business_unit_tsis01_qualitynote" />
+  <EntityRelationship Name="FileAttachment_tsis01_QualityNote_tsis01_AttachmentsPic" />
+  <EntityRelationship Name="lk_tsis01_hoursinputmsk_createdby" />
+  <EntityRelationship Name="lk_tsis01_hoursinputmsk_modifiedby" />
+  <EntityRelationship Name="lk_tsis01_hoursreg_createdby" />
+  <EntityRelationship Name="lk_tsis01_hoursreg_modifiedby" />
+  <EntityRelationship Name="lk_tsis01_qualitynote_createdby" />
+  <EntityRelationship Name="lk_tsis01_qualitynote_modifiedby" />
+  <EntityRelationship Name="owner_tsis01_hoursinputmsk" />
+  <EntityRelationship Name="owner_tsis01_hoursreg" />
+  <EntityRelationship Name="owner_tsis01_qualitynote" />
+  <EntityRelationship Name="team_tsis01_hoursinputmsk" />
+  <EntityRelationship Name="team_tsis01_hoursreg" />
+  <EntityRelationship Name="team_tsis01_qualitynote" />
+  <EntityRelationship Name="user_tsis01_hoursinputmsk" />
+  <EntityRelationship Name="user_tsis01_hoursreg" />
+  <EntityRelationship Name="user_tsis01_qualitynote" />
+</EntityRelationships>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>tsis01_mskapp_72de6</Name>
+  <AppVersion>2023-01-31T22:08:44Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.23013.12.0</CreatedByClientVersion>
+  <MinClientVersion>3.23013.12.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"640","primaryDeviceHeight":"1136","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Phone","publisherVersion":"3.23013.12","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false","sienaVersion":"20221128T113640Z-3.22111.19.0"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+  <DisplayName>MSKAPP</DisplayName>
+  <Description></Description>
+  <CommitMessage></CommitMessage>
+  <Publisher></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{"HoursRegs":{"entitySetName":"tsis01_hoursregs","logicalName":"tsis01_hoursreg"},"QualityNotes":{"entitySetName":"tsis01_qualitynotes","logicalName":"tsis01_qualitynote"}}}}</DatabaseReferences>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"componenttype":1,"logicalname":"tsis01_hoursreg"},{"componenttype":1,"logicalname":"tsis01_qualitynote"}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/tsis01_mskapp_72de6_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/tsis01_mskapp_72de6_DocumentUri.msapp</DocumentUri>
+</CanvasApp>

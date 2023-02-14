@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{2e10c7c8-bf0a-4267-a15b-c6916b248e04}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tsis01_name" select="1" icon="1" preview="1">
+        <row name="result" id="tsis01_qualitynoteid">
+          <cell name="tsis01_name" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tsis01_qualitynote">
+          <attribute name="tsis01_qualitynoteid" />
+          <attribute name="tsis01_name" />
+          <attribute name="createdon" />
+          <order attribute="tsis01_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive QualityNotes" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
