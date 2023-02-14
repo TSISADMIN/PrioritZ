@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{ed6f7a2e-7d1c-4751-82a7-b9cad3854f6b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="tsis01_name" select="1" icon="1" preview="1">
+        <row name="result" id="tsis01_hoursregid">
+          <cell name="tsis01_name" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="tsis01_hoursreg">
+          <attribute name="tsis01_hoursregid" />
+          <attribute name="tsis01_name" />
+          <attribute name="createdon" />
+          <order attribute="tsis01_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive HoursRegs" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Entities />
+  <Roles />
+  <Workflows />
+  <FieldSecurityProfiles />
+  <Templates />
+  <EntityImageConfigs>
+    <EntityImageConfig>
+      <parententitylogicalname>tsis01_qualitynote</parententitylogicalname>
+      <primaryimageattribute>tsis01_noteimage</primaryimageattribute>
+    </EntityImageConfig>
+  </EntityImageConfigs>
+  <AttributeImageConfigs>
+    <AttributeImageConfig>
+      <attributelogicalname>tsis01_noteimage</attributelogicalname>
+      <parententitylogicalname>tsis01_qualitynote</parententitylogicalname>
+      <canstorefullimage>1</canstorefullimage>
+    </AttributeImageConfig>
+  </AttributeImageConfigs>
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <CustomControls />
+  <EntityDataProviders />
+  <CanvasApps />
+  <connectionreferences>
+    <connectionreference connectionreferencelogicalname="tsis01_sharedoffice365_69b50">
+      <connectionreferencedisplayname>Office 365 Outlook MSKHourReg-69b50</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_office365</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+  </connectionreferences>
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>
